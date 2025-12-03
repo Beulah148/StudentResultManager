@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#studentForm {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#studentForm input {
+    padding: 10px;
+    flex: 1;
+}
+
+#resultTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#resultTable th, #resultTable td {
+    border: 1px solid #555;
+    padding: 10px;
+    text-align: center;
+}
